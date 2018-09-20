@@ -15,7 +15,7 @@ config :practice, PracticeWeb.Endpoint,
   cache_static_manifest: "priv/static/cache_manifest.json",
   root: ".",
   version: Application.spec(:phoenix_distillery, :vsn),
-  url: [host: "practice2.ironbeard.com", port: 80]
+  url: [host: "hw02b.raquel-webdev.com", port: 80]
 
 # TODO: Correct the above URL for deployment.
 
@@ -85,4 +85,3 @@ secret = File.read!(path)
 
 config :draw, PracticeWeb.Endpoint,
   secret_key_base: secret
-
